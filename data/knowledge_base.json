@@ -1,0 +1,22 @@
+{
+  "policies": [
+    {
+      "id": "ACC-01",
+      "topic": "Account",
+      "issue": "Password Reset",
+      "solution": "Users should navigate to the 'Security' tab in settings and click 'Request Reset Link'. A 6-digit code will be sent to their recovery email."
+    },
+    {
+      "id": "TECH-05",
+      "topic": "Technical Issue",
+      "issue": "504 API Error",
+      "solution": "Intermittent 504 errors indicate a gateway timeout. This is an infrastructure-level issue. Please escalate to the DevOps team immediately."
+    },
+    {
+      "id": "FEAT-10",
+      "topic": "Feature Request",
+      "issue": "Dark Mode",
+      "solution": "Dark mode is currently in beta and scheduled for full release in Q4. Users can request early access via the beta portal."
+    }
+  ]
+}
